@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main (){
+    int n;
+    cout<<"enter the value of n";
+    cin>>n;
+    int p;
+    p=n;
+    int dig,rev=0;
+    while (n>0)
+    {
+        dig=n%10;
+        rev=rev*10+dig;
+        n=n/10;
+    }
+    if (p==rev)
+    {
+        cout<<"the numeber is pallindrome";
+    }else
+    {
+        cout<<"the number is not pallindrome";
+    }
+    return 0;
+    
+}
