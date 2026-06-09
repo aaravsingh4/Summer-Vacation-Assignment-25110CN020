@@ -16,8 +16,7 @@ int main(){
             {
                 cout<<" ";
             }
-            
-            
+            //Day 09 Work   
         }
         cout<<endl;
     }
